@@ -547,9 +547,12 @@ h4 {
       display: block;
       width: 100%;
       height: 50px;
-      background-image: url(https://alfaroukroute.github.io/Mealify/assets/img/team-shape.svg);
-      background-position: center left;
-      background-repeat: repeat-x;
+      /* background-image: url(https://alfaroukroute.github.io/Mealify/assets/img/team-shape.svg); */
+      mask-image: url(https://alfaroukroute.github.io/Mealify/assets/img/team-shape.svg);
+      mask-position: center left;
+      mask-repeat: repeat-x;
+
+      background-color: rgb(var(--color-white));
     }
   }
 
